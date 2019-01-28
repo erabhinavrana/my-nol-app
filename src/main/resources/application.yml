@@ -1,0 +1,12 @@
+server:
+  port: 8899
+spring:
+    profiles: dev
+    name: dev-YAML
+    environment: dev
+mongodb:
+  database: nolapp
+  username:
+  password:
+  host: 127.0.0.1
+  port: 27017
